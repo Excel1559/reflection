@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The command line allows you to easily compare the changes between two files. If a line was changes the command line will should which line was changes and display the old and current version of that line. This saves you a lot of time and effort because you don’t have to scroll through the whole file, you only have to look at the lines that were changed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having access to the entire history will make it much easier for debugging and if you made a mistake you can easily see where you went wrong. Another reason is a lot of the time we make changes in the hope that our new creation is better in either look or efficiency. And then once the change is complete we may realize that we actually liked the older version better. Having all the history saved makes it very easy just to go back to the pervious design instead of you having to re-write all that code again.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I think the main pro is that you have the freedom to choose whenever you want to make a commit. Like when you complete a certain stage of a project like you just complete the navigation bar this is a good place to make a commit before you move on to the next stage of the project. I don’t think google doc would have anyway to know that you just finished a major step in your project so they wouldn’t know that this is a great place for a commit. Hmm, for a con I guess if your a forgetful or don’t make commits very often then Git wouldn’t be very good for you, google doc would be much better in this case to make sure that your file is always saved.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Multiple saving is important because in coding you have multiple files and changing one will probably after the other files, like if you add a button this will change the html file, but you may also need to style that button so the css will changes and then you need to create some functionality for that button so the javascript file will change. Its important to keep all these changes together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to view all the commits that have been made to an file and then use the commits ids to compare two commits using git diff followed by the two ids
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It makes you more confident because at anytime you can easily run a pervious version of the code to see where the mistake occurred when once you know where the mistake occurred you can compare that version and the previous vision to see what the mistake was.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   I want to use github for my android programming, this will allow me to make certain changes without having to create a whole new project or create new activites to test little things,
